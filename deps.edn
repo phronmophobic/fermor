@@ -5,7 +5,12 @@
            io.lacuna/bifurcan           {:mvn/version "0.2.0-alpha6"}
            org.flatland/ordered         {:mvn/version "1.15.10"}
            com.xn--lgc/pure-conditioning {:git/url "https://github.com/pangloss/pure-conditioning"
-                                          :sha "f605800bcbdf80a408c60d8e60bb6cd8222f17c6"}}
+                                          :sha "f605800bcbdf80a408c60d8e60bb6cd8222f17c6"}
+
+            com.phronemophobic/membrane {:mvn/version "0.9.31.8-beta"}
+            com.phronemophobic.membrane/skialib-macosx-aarch64 {:mvn/version "0.9.31.0-beta"}
+            com.phronemophobic.membrane/skialib-macosx-x86-64 {:mvn/version "0.9.31.0-beta"}
+            com.phronemophobic.membrane/skialib-linux-x86-64 {:mvn/version "0.9.31.0-beta"}}
  :aliases {:test     {:extra-paths ["test"]
                       :jvm-opts ["-XX:-OmitStackTraceInFastThrow"]
                       :extra-deps  {aysylu/loom {:mvn/version "1.0.2"}}}}}
